@@ -1,0 +1,238 @@
+:root{
+--Very-Pale-Cyan: hsla(192, 100%, 96%, 0.819);
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Grayish-Blue: hsl(208, 11%, 55%);
+--Pink: hsla(322, 100%, 66%, 0.827);
+}
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+p{
+  font-weight: 400;
+  margin-bottom:15px ;
+}
+
+
+
+
+header{
+  background-image: url("bg-hero-desktop.svg");
+   width: 100%;
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--Very-Pale-Cyan);
+} 
+nav{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+nav div img{
+  height: 30px;
+}
+ nav button{
+  width: 150px;
+  font-weight: 600;
+  font-size: 13px;
+  box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.477);
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: var(--Very-Dark-Cyan);
+  background-color: white;
+  text-align: center;
+  height: 40px;
+}
+.header-parent{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  gap:50px;
+  margin: 20px auto 0;
+}
+.header-parent .header-text{
+  width: 70%;
+  margin-top: 60px;
+  height: auto;  
+}
+.header-parent .header-text h2{
+  font-weight: 700;
+  font-size: 29px;
+  margin-top: 15px;
+}
+.header-parent .header-text p{
+  font-size: 16px;
+  margin: 20px 20px 30px  0;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.659);
+}
+.header-text a{
+  text-decoration: none;
+  color: beige;
+  background-color: var(--Pink);
+  font-size: 12px;
+  padding: 8px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.header-text a:hover{
+background-color: #DB52D5;
+}
+.header-img{
+  padding: 10px;
+  width: 90%;
+}
+.header-img img{
+  width: 100%;
+}
+
+
+/* header section code end  */
+
+/* main section code start  */
+
+/* Start of section 1  */
+.sec-one-parents{
+  width: 100%;
+  height: auto;
+}
+.section1{
+  background-color:white;
+  width: 90%;
+  margin: 50px auto;
+  box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.25);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.sec1-img{
+  width: 100%;
+  margin: 20px;
+  padding: 30px;
+}
+.sec1-img img{
+  width: 100%;
+}
+.sec1-text{
+  width: 80%;
+  height: 200px;
+  margin: auto 0 auto 100px;
+}
+.sec1-text p{
+  color: rgba(0, 0, 0, 0.535);
+}
+
+
+/* section 2 code start here  */
+.section2{
+  width: 90%;
+  height: 430px;
+  margin: 30px auto;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.287);
+  border-radius: 10px;
+}
+.sec2-img{
+  margin:auto;
+  width: 70%;
+ 
+}
+.sec2-img img{
+  max-width: 100%;
+  padding: 30px;
+}
+.sec2-text{
+  margin: auto;
+  padding:0 40px;
+}
+.sec2-text p{
+  color: rgba(0, 0, 0, 0.625);
+}
+.sec4{
+  width: 350px;
+  text-align: center;
+  padding:50px 20px;
+  margin: 0 auto;
+ box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.542);
+ border-radius: 10px;
+ position: absolute;
+ left: 40%;
+ top: -20%;
+ background-color: #fff;
+}
+.sec4 button{
+  background-color: var(--Pink);
+  border-radius: 30px;
+  margin: 10px;
+  color: #ffffffc9;
+  font-weight: bold;
+  font-size: 13px;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+footer{
+  margin-top: 150px;
+  position: relative;
+  background-color: var(--Very-Dark-Cyan);
+  height: 560px;
+}
+.footer-parent{
+  width: 85%;
+  margin: auto;
+  padding-top: 150px;
+  color: rgba(255, 255, 255, 0.703);
+  display:flex;
+  gap: 30px;
+}
+.footer-parent img{
+  margin-right: 10px;
+}
+.fot2 ,.fot3,.fot4{
+  width: 40%;
+  padding: 25px;
+}
+
+.ss{
+  width: 200px;
+  margin-bottom: 20px;
+}
+.fot4 i{
+  border: 1px solid white;
+  padding:8px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: 10px;
+}
+.fot4 i:hover{
+  background-color: rgb(6, 111, 118);
+  color: wheat;
+}
+.copyright{
+  color: #ffffffbb;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
